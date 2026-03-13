@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+import "google/protobuf/timestamp.proto";
+
+option java_package = "com.quick.app.core.datastore";
+option java_multiple_files = true;
+
+//json转为proto
+//https://json-to-proto.github.io/
+
+message UserPreferences {
+  string id = 1;
+  google.protobuf.Timestamp created = 2;
+  google.protobuf.Timestamp updated = 3;
+  string status = 4;
+  string app = 5;
+  string nickname = 6;
+  string icon = 7;
+  string detail = 8;
+  string gender = 9;
+  string phone = 10;
+  string email = 11;
+  string emailVerified = 12;
+  uint32 followingsCount = 13;
+  uint32 followersCount = 14;
+  google.protobuf.Timestamp loginDate = 15;
+  string loginIp = 16;
+  uint32 platform = 17;
+  uint32 commentsCount = 18;
+}

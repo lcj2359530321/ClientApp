@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--手机品牌
+    真实项目中大不部分时候是请求服务端接口获取-->
+    <string-array name="phone_brand">
+        <item>OPPO</item>
+        <item>华为</item>
+        <item>小米</item>
+        <item>VIVO</item>
+        <item>荣耀</item>
+        <item>苹果</item>
+        <item>三星</item>
+        <item>一加</item>
+        <item>真我</item>
+        <item>诺基亚</item>
+        <item>中兴</item>
+        <item>联想</item>
+        <item>iQOO</item>
+        <item>魅族</item>
+        <item>飞利浦</item>
+    </string-array>
+
+    <!--性别选项-->
+    <string-array name="gender_titles">
+        <item>保密</item>
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+    <integer-array name="gender_values">
+        <item>0</item>
+        <item>10</item>
+        <item>20</item>
+    </integer-array>
+</resources>

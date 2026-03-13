@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.ClientApp" parent="android:Theme.Material.Light.NoActionBar">
+        <!--region 启动动画-->
+        <!--        https://developer.android.google.cn/develop/ui/views/launch/splash-screen?hl=zh-cn-->
+        <!--启动界面背景颜色-->
+        <item name="android:windowSplashScreenBackground">@color/white</item>
+
+        <!--启动图标背景颜色-->
+        <!--        <item name="android:windowSplashScreenIconBackgroundColor">#3DDC84</item>-->
+        <!--启动图标-->
+        <!--        <item name="android:windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>-->
+
+        <!--这里设置的是gif,从上面文档下载的,真实项目中设计师可以使用AE制作-->
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/splash_screen_logo</item>
+
+        <!--设置动画时间,最长不要超过一秒-->
+        <item name="android:windowSplashScreenAnimationDuration">1000</item>
+
+        <!--启动界面底部logo,官方不推荐使用-->
+        <!--                <item name="android:windowSplashScreenBrandingImage">@drawable/splash_logo</item>-->
+        <!--endregion-->
+    </style>
+</resources>

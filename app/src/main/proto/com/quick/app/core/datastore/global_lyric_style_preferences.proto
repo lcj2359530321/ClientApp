@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "com.quick.app.core.datastore";
+option java_multiple_files = true;
+
+message GlobalLyricStylePreferences {
+  bool show = 1;
+  bool lock = 2;
+  uint32 fontSize = 3;
+  uint32 fontColorIndex = 4;
+  uint32 positionY = 5;
+}

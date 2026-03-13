@@ -1,6 +1,7 @@
 package com.quick.app.core.design.theme
 
 import android.os.Build
+import androidx.annotation.ChecksSdkIntAtLeast
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.darkColorScheme
@@ -120,5 +121,8 @@ val LocalDividerColor = staticCompositionLocalOf { md_theme_light_divider }
 
 //箭头颜色
 val LocalArrowColor = staticCompositionLocalOf { md_theme_light_arrow }
+
+@ChecksSdkIntAtLeast(api = Build.VERSION_CODES.S)
+fun supportsDynamicTheming() = Build.VERSION.SDK_INT >= Build.VERSION_CODES.S
 
 

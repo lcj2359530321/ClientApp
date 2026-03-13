@@ -1,0 +1,33 @@
+
+syntax = "proto3";
+
+import "com/quick/app/core/datastore/session_preferences.proto";
+import "com/quick/app/core/datastore/user_preferences.proto";
+import "com/quick/app/core/datastore/dark_theme_config_preferences.proto";
+import "com/quick/app/core/datastore/playback_mode_preferences.proto";
+import "com/quick/app/core/datastore/global_lyric_style_preferences.proto";
+
+option java_package = "com.quick.app.core.datastore";
+option java_multiple_files = true;
+
+message UserDataPreferences {
+  reserved 2;
+  bool not_show_guide = 1;
+  SessionPreferences session = 3;
+  UserPreferences user = 4;
+  bool not_show_terms_service_agreement = 5;
+
+  DarkThemeConfigPreferences dark_theme_config = 6;
+  bool use_dynamic_color = 7;
+
+  PlaybackModePreferences play_repeat_mode = 8;
+
+  string play_music_id = 9;
+
+  uint64 play_progress = 10;
+  uint64 play_duration = 11;
+
+  GlobalLyricStylePreferences globalLyricStyle = 12;
+
+  // NEXT AVAILABLE ID: 13
+}

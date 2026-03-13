@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--小间歇-->
+    <dimen name="padding_small">5dp</dimen>
+
+    <!--中间歇-->
+    <dimen name="padding_meddle">10dp</dimen>
+
+    <!--边距间歇-->
+    <dimen name="padding_outer">16dp</dimen>
+
+    <!--大间歇-->
+    <dimen name="padding_large">20dp</dimen>
+
+
+    <!--歌词-->
+    <dimen name="lyric_size">16sp</dimen>
+    <dimen name="lyric_height_small">14dp</dimen>
+    <dimen name="global_lyric_height">40dp</dimen>
+    <dimen name="share_lyric_logo_width">12dp</dimen>
+    <dimen name="text_lyric_flag">20sp</dimen>
+
+    <!--图标高度-->
+    <dimen name="icon_height">24dp</dimen>
+</resources>

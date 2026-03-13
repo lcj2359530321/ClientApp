@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "com.quick.app.core.datastore";
+option java_multiple_files = true;
+
+message SessionPreferences {
+  string userId = 1;
+  string session = 2;
+  string chatToken = 3;
+}
