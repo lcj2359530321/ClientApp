@@ -4,8 +4,6 @@ import com.quick.app.BuildConfig
 
 /**
  * 配置文件
- *
- * 例如：API地址，QQ等第三方服务配置信息等
  */
 object Config {
     /**
